@@ -10,9 +10,11 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...
       - docker build -t  web:1 .
-      - docker tag web:1 981942040659.dkr.ecr.us-east-1.amazonaws.com/webserver3
+      - docker tag web:1 981942040659.dkr.ecr.us-east-1.amazonaws.com/webapp
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 981942040659.dkr.ecr.us-east-1.amazonaws.com/webserver3
+      - docker push 981942040659.dkr.ecr.us-east-1.amazonaws.com/webapp
+      - echo images has been Pushed to the ECR registry!
+

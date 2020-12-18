@@ -1,6 +1,6 @@
 [
   {
     "name": "webserver12",
-    "imageUri": "981942040659.dkr.ecr.us-east-1.amazonaws.com/webserver3:latest"
+    "imageUri": "981942040659.dkr.ecr.us-east-1.amazonaws.com/webapp:latest"
   }
 ]
