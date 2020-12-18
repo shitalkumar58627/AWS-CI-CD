@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM ubuntu:18.04
 MAINTAINER SHITALKUMAR DHAWALE
 ############### INSTALLING UPDATES AND APACHE SERVER ############
 RUN apt-get update
