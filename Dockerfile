@@ -16,3 +16,7 @@ ENTRYPOINT ["/usr/sbin/apache2"]
 CMD ["-D", "FOREGROUND"]
 
 EXPOSE 80
+
+################### Congratulations Contianer has been launched successfully #######################
+
+
